@@ -1,0 +1,369 @@
+@media (min-width: 320px) and (max-width: 575.98px) {
+    #nav_bar {
+        height: 40px;
+    }
+    #nav_bar .logo {
+        width: 140px;
+        height: 40px;
+        line-height: 30px;
+        border: 1px solid #020202;
+        margin-left: 20px;
+    }
+    #nav_bar .logo img {
+        height: 30px;
+    }
+    .navbar-light .navbar-toggler {
+        border-color: transparent;
+    }
+    #nav_bar button i {
+        color: #fff !important;
+        font-size: 18px;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    #nav_bar .main_menu {
+        margin-top: 20px;
+        background-color: #e23e38;
+    }
+    #nav_bar ul.main_menu li {
+        line-height: 30px;
+    }
+    #nav_bar ul.main_menu li a {
+        margin-left: 0px;
+    }
+    #nav_bar ul.main_menu li a::after {
+        border-bottom: 3px solid black;
+    }
+    /* banner part start here */
+    #banner_section .slider-2 .slider-text h2::before {
+        display: none;
+    }
+    #banner_section .slider-2 .slider-text h2::after {
+        display: none;
+    }
+    #banner_section .slider-2 .slider-text p::before {
+        display: none;
+    }
+    #banner_section .slider-2 .slider-text p::after {
+        display: none;
+    }
+    #banner_section .slider-2 .banner_btn:before {
+        display: none;
+    }
+    #banner_section .slider-2 .banner_btn::after {
+        display: none;
+    }
+    #banner_section .slider .slider-text h2 {
+        font-size: 20px;
+        letter-spacing: 1px;
+        font-weight: 500;
+    }
+    #banner_section .slider .slider-text h1 {
+        font-size: 30px;
+        margin-top: 8px;
+        margin-bottom: 15px;
+    }
+    #banner_section .slider .slider-text p {
+        width: auto;
+        line-height: 22px;
+    }
+    #banner_section .slider .banner_btn {
+        margin-top: 23px;
+    }
+    #banner_section .slider .banner_btn a {
+        padding: 9px 15px;
+        font-size: 14px;
+    }
+    #banner_section .slider .banner_btn a.joine {
+        margin-right: 15px;
+    }
+    #banner_section .slick-dots li button {
+        font-size: 0;
+        width: 0;
+        height: 0;
+        border: none;
+    }
+    /* banner part end here */
+    main section {
+        padding: 25px 0px;
+    }
+    /* About section start here */
+    #about_us .left {
+        order: 2;
+    }
+    #about_us .right {
+        order: 1;
+    }
+    #about_us .right .about_text_contnet .text p {
+        width: auto;
+        text-align: justify;
+    }
+    #about_us .about_text_contnet .text p:first-child {
+        margin-bottom: 20px;
+    }
+    #about_us .about_text_contnet {
+        margin-bottom: 20px;
+    }
+    /* About section end here */
+    /* testimonial section stat here */
+    #testimonial-section .slick-dots li button {
+        font-size: 0px;
+        width: 0;
+        height: 0;
+        background: none;
+        border: none;
+    }
+    /* testimonial section end here */
+    /* membershipt section start here */
+    #memberShip .memberShip_card {
+        margin-bottom: 30px;
+    }
+    #memberShip h3.memberShipt_title {
+        padding: 15px 0px;
+        transition: 0.4s;
+    }
+    #memberShip .memberShip_card .memberShip_pricing {
+        padding: 10px 0px;
+    }
+    #memberShip .memberShip_card .memberShip_pricing.price-2 {
+        padding: 10px 0px;
+    }
+    #memberShip .memberShip_card .memberShip_pricing.price-3 {
+        padding: 10px 0px;
+    }
+    #memberShip .memberShip_pricing h4 {
+        font-size: 30px;
+        font-weight: 400;
+    }
+    #memberShip .memberShip_pricing h4 span {
+        font-size: 16px;
+        font-weight: 300;
+    }
+    #memberShip .m_services {
+        padding: 20px 0px;
+    }
+    /* membershipt section end here */
+    .blogs-box .counter {
+        font-size: 20px;
+    }
+    .blogs-box .blogsTitle {
+        font-size: 12px;
+    }
+    /* Blogs section end here */
+    /* Fitness section start here */
+    #fitness .routing-day ul li button {
+        padding: 14px 0px;
+        width: 145px;
+    }
+    /* Fitness section end here */
+    #fitness .routing_deatlis .class-time {
+        width: 143px;
+        padding: 15px 5px;
+        margin-bottom: 10px;
+    }
+    #fitness .routing_deatlis .class-time h5 {
+        font-size: 14px;
+    }
+    /*  partners_section section start here*/
+    #partners_section .image img {
+        height: 65px;
+    }
+    /*  partners_section section start here*/
+    /* footer area start here */
+    footer#footer_area .footer_logo {
+        padding: 15px;
+        text-align: center;
+        border-bottom: 2px solid #ddd;
+    }
+    footer#footer_area .footer_item {
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    .text {
+        margin-bottom: 18px;
+    }
+    .footer_item.itme-2 .twitterFeed p {
+        font-size: 13px;
+    }
+    .ficker-images .image {
+        margin-bottom: 14px;
+        width: 25%;
+    }
+    .footer_item.itme-4 .item {
+        justify-content: flex-start;
+    }
+    .footer_item h3 {
+        text-align: center;
+    }
+    #footer_area .socila-link {
+        text-align: center;
+    }
+    /* footer area end here */
+}
+@media (min-width: 576px) and (max-width: 768.98px) {
+    #nav_bar .logo {
+        width: 150px;
+        height: 60px;
+        padding: 0;
+        margin: 0;
+        line-height: 45px;
+    }
+    #nav_bar .logo img {
+        height: 35px;
+    }
+    .navbar-light .navbar-toggler {
+        border-color: transparent;
+    }
+    #nav_bar button i {
+        color: #fff !important;
+        font-size: 18px;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    #nav_bar .main_menu {
+        margin-top: 20px;
+        background-color: #e23e38;
+    }
+    #nav_bar ul.main_menu li {
+        line-height: 30px;
+    }
+    #nav_bar ul.main_menu li a {
+        margin-left: 0px;
+    }
+    #nav_bar ul.main_menu li a::after {
+        border-bottom: 3px solid black;
+    }
+    main section {
+        padding: 30px 0px;
+    }
+    #banner_section .slider .slider-text h2 {
+        font-size: 25px;
+        line-height: normal;
+    }
+    #banner_section .slider .slider-text h1 {
+        font-size: 50px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    #banner_section .slider .slider-text p {
+        width: auto;
+    }
+    #banner_section .slider-2 .slider-text h2::before {
+        display: none;
+    }
+    #banner_section .slider-2 .slider-text h2::after {
+        display: none;
+    }
+    #banner_section .slider-2 .slider-text p::before {
+        display: none;
+    }
+    #banner_section .slider-2 .slider-text p::after {
+        display: none;
+    }
+    #banner_section .slider-2 .banner_btn:before {
+        display: none;
+    }
+    #banner_section .slider-2 .banner_btn::after {
+        display: none;
+    }
+    #about_us .left {
+        order: 2;
+    }
+    #about_us .right {
+        order: 1;
+    }
+    #about_us .right .about_text_contnet .text p {
+        width: auto;
+        text-align: justify;
+    }
+    #about_us .about_text_contnet .text p:first-child {
+        margin-bottom: 20px;
+    }
+    #about_us .about_text_contnet {
+        margin-bottom: 20px;
+    }
+    #about_us .about_text_contnet .text p {
+        width: auto;
+        text-align: justify;
+        font-size: 13px;
+    }
+    #about_us .about_text_contnet .text p:first-child {
+        margin-bottom: 15px;
+    }
+    .section_heading h3 {
+        font-size: 18px !important;
+        margin-bottom: 33px;
+    }
+    .section_heading h3 img {
+        position: absolute;
+        left: 50%;
+        bottom: -50%;
+        transform: translateX(-50%);
+        width: 100px;
+    }
+    .section_heading h3 img {
+        width: 100px;
+    }
+    .our_gallery {
+        padding: 10px 0px;
+    }
+    .persone:hover {
+        border: 1px solid #dddddd;
+        transform: translateY(-10px);
+    }
+    #testimonial-section .testimonial {
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+    #fitness .routing-day ul li button {
+        width: 172px;
+    }
+    #fitness .routing_deatlis .class-time {
+        width: 255px;
+    }
+    #partners_section i {
+        display: none !important;
+    }
+    #partners_section .image {
+        width: 240px;
+    }
+    .ficker-images .image {
+        margin-bottom: 20px;
+        width: 86px;
+    }
+    .footer_item.itme-4 .item {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+}
+@media (min-width: 778px) and (max-width: 992.98px) {
+    #fitness .routing-day ul li button {
+        width: 232px;
+    }
+    section#partners_section i {
+        display: none !important;
+    }
+
+    section#partners_section ul li button {
+        font-size: 0px;
+        outline: none;
+        border: none;
+    }
+    .footer_item.itme-2 .twitterFeed p {
+        line-height: 25px;
+        margin-bottom: 10px;
+    }
+    .ficker-images .image {
+        margin-bottom: 15px;
+        width: 15%;
+    }
+    .ficker-images .image img {
+        width: 100%;
+    }
+    .footer_item.itme-4 .item {
+        justify-content: flex-start;
+    }
+}
